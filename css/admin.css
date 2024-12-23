@@ -1,0 +1,81 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* CSS for menu */
+.menu {
+  border-bottom: 1px solid grey;
+}
+
+.menu ul{
+  list-style-type: none;
+  margin: 8px;
+}
+
+.menu ul li{
+  display: inline;
+  padding: 1%;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #2e2829;
+}
+
+.menu ul li a:hover{
+  color: #ff4757;
+}
+
+.clearfix {
+  float: none;
+  clear: both
+}
+
+
+/* CSS for Content */
+.content {
+  background-color: #f1f2f6;
+  padding: 3% 0;
+}
+
+.col-4 {
+  width: 48%;
+  background-color: #fff;
+  margin: 1%;
+  padding: 2%;
+  float: left ;
+}
+
+/* CSS for footer */
+.footer {
+  background-color: #ff4757;
+  color: white;
+}
+
+
+/* Form */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
